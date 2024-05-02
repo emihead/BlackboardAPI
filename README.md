@@ -6,7 +6,7 @@ This mod also takes ownership of Blackboard itself and changes it to check for a
 
 Requires [Steamodded](https://github.com/Steamopollys/Steamodded).
 
-###Important notes
+### Important notes
 
 - This does not affect Smeared Joker. It was going to but an incompatibility with SixSuits arose in how it detects Spectrums. If you want to have your suits affected by Smeared Joker then try hooking into the `is_suit` function and defining pairs similar to how it's done in the base game.
 - Any features in your mod that depend on this should check if the mod exists first, obviously.
