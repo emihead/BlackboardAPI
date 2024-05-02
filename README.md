@@ -4,6 +4,8 @@ This mod lets you define "color" attributes for modded suits. Like the name impl
 There are two default colors: light (Hearts and Diamonds) and dark (Spades and Clubs). However, there is functionality for creating new colors if you so wish.
 This mod also takes ownership of Blackboard itself and changes it to check for all "dark" colored suits rather than specifically Spades and Clubs.
 
+Requires [Steamodded](https://github.com/Steamopollys/Steamodded).
+
 ###Important notes
 
 - This does not affect Smeared Joker. It was going to but an incompatibility with SixSuits arose in how it detects Spectrums. If you want to have your suits affected by Smeared Joker then try hooking into the `is_suit` function and defining pairs similar to how it's done in the base game.
